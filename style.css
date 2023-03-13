@@ -1,0 +1,81 @@
+@charset "utf-8";
+@font-face {
+    font-family:Exo;
+    src: url(Fonts/Exo2-VariableFont_wght.ttf);
+}
+
+*{
+    background-image: linear-gradient(to right,#AB9327,#6B5C19 );
+    font-family: Exo ;
+}
+
+header{
+color: white;
+text-shadow: 1px 1px 1px black;
+padding-top: 10px;
+text-align: center;
+margin: auto;
+
+
+}
+.nav{
+ text-decoration: none;
+ color: white;
+ text-align: right;
+ font-size: 1.5em;
+ border-width: 1px;
+ border-radius: 15px;
+ margin: auto;
+}
+.nav > a{
+    text-decoration: none;
+    color: white;
+}
+.nav > a:hover{
+    transition-duration: 5seg;
+    color: gold;
+}
+
+section{
+color: white;
+border-radius: 20px;
+ border-image: 0%;
+text-align: center;
+margin: auto;
+font-size: 1.1em;
+}
+article{
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-size: 1.1em;
+}
+.list{
+color: white;
+text-align: center;
+margin: auto;
+font-size: 1.1em;
+}
+.yt{
+text-align: center;
+border-radius: 15px;
+}
+picture{
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    display: block;
+}  
+form{
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 1.4em;
+    text-decoration: white;
+}
+iframe{
+    margin: auto;
+    max-width: 500px;
+    min-width: 120px;
+}
