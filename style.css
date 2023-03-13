@@ -79,14 +79,3 @@ iframe{
     max-width: 500px;
     min-width: 120px;
 }
-input{
-    color: white;
-    display: block;
-    font-size: 1.2em;
-    text-align: center;
-    margin: auto;
-    text-decoration: white  ;
-}
-input::placeholder{
-    color: white;
-}
